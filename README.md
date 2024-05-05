@@ -97,9 +97,8 @@ CALL populating_monthly_customer_program_incrementally();
 Ensure proper EC2 configuration before starting Metabase installation.
 
 ## Folder Structure
-- **Data_Ingestion:** Contains scripts and configurations for data ingestion.
-- **Data_Transformation:** Includes ETL scripts and data model definitions.
-- **Data_Analysis:** Scripts and configurations for connecting Snowflake to Metabase and generating reports.
+- **Lambda:** Contains python script for ingesting data from s3.
+- **Snowflake:** Includes ETL scripts, EDA and data model definitions.
 
 ## Getting Started
 1. Set up servers on AWS.
